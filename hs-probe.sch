@@ -1179,9 +1179,9 @@ Wire Wire Line
 Wire Wire Line
 	12150 2250 12250 2250
 Wire Wire Line
-	11250 1950 11450 1950
+	11250 1950 11550 1950
 Wire Wire Line
-	11250 2050 11600 2050
+	11250 2050 11350 2050
 Wire Wire Line
 	11250 2150 11600 2150
 Wire Wire Line
@@ -1384,25 +1384,25 @@ Wire Wire Line
 	5450 4350 5550 4350
 Text Label 11250 2650 2    50   ~ 0
 SPI2_MOSI
-Text Label 11250 1750 2    50   ~ 0
+Text Label 11250 1650 2    50   ~ 0
 SPI2_MISO
-Text Label 11250 1850 2    50   ~ 0
+Text Label 11250 1750 2    50   ~ 0
 SPI2_CLK
 Wire Wire Line
 	13600 1850 13500 1850
 Text Label 13500 1850 2    50   ~ 0
 T_TDI
-Text Notes 11000 1500 0    50   ~ 0
+Text Notes 11000 1400 0    50   ~ 0
 DESIGN NOTE:\nFor SWD + SWO, SPI1 + USART1 is used\nFor JTAG, SPI2 is used (SWO not available)
 Wire Wire Line
-	11250 2350 11350 2350
+	11250 2350 11450 2350
 Wire Wire Line
-	11250 1850 11350 1850
+	11250 1750 11450 1750
 Wire Wire Line
-	11350 1850 11350 2350
-Connection ~ 11350 2350
+	11450 1750 11450 2350
+Connection ~ 11450 2350
 Wire Wire Line
-	11350 2350 11600 2350
+	11450 2350 11600 2350
 Wire Wire Line
 	11250 2650 11600 2650
 Text Label 12250 2650 0    50   ~ 0
@@ -1410,20 +1410,20 @@ T_TDI
 Wire Wire Line
 	12250 2650 12150 2650
 Wire Wire Line
-	11250 1750 11450 1750
+	11250 1650 11550 1650
 Wire Wire Line
-	11450 1750 11450 1950
-Connection ~ 11450 1950
+	11550 1650 11550 1950
+Connection ~ 11550 1950
 Wire Wire Line
-	11450 1950 11600 1950
+	11550 1950 11600 1950
 Wire Notes Line
-	10950 1200 12700 1200
+	10950 1100 12700 1100
 Wire Notes Line
-	12700 1200 12700 1600
+	12700 1100 12700 1500
 Wire Notes Line
-	12700 1600 10950 1600
+	12700 1500 10950 1500
 Wire Notes Line
-	10950 1600 10950 1200
+	10950 1500 10950 1100
 Text Notes 14650 1000 0    50   ~ 0
 DESIGN NOTE:\nT_VCC is not read, this assumes\nthat the target is running at the\nsame voltage as the probe.
 Wire Notes Line
@@ -1449,4 +1449,13 @@ F 3 "https://github.com/SimonMerrett/SOICbite" H 12000 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11750 3650 11850 3650
+Wire Wire Line
+	11250 1850 11350 1850
+Wire Wire Line
+	11350 1850 11350 2050
+Connection ~ 11350 2050
+Wire Wire Line
+	11350 2050 11600 2050
+Text Label 11250 1850 2    50   ~ 0
+SPI1_MISO
 $EndSCHEMATC
