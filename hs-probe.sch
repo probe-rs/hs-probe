@@ -1308,17 +1308,6 @@ Text Label 10550 3050 0    50   ~ 0
 LED1
 Text Label 10550 2950 0    50   ~ 0
 LED2
-$Comp
-L connectors:SOICbite_SWD U6
-U 1 1 5EFB31C8
-P 12000 3050
-F 0 "U6" H 12378 2746 50  0000 L CNN
-F 1 "SOICbite_SWD" H 12378 2655 50  0000 L CNN
-F 2 "connectors:SOICbiteSmall" H 12000 3050 50  0001 C CNN
-F 3 "https://github.com/SimonMerrett/SOICbite" H 12000 3050 50  0001 C CNN
-	1    12000 3050
-	1    0    0    -1  
-$EndComp
 Text Label 10550 3250 0    50   ~ 0
 P_SWDIO
 Text Label 10550 3150 0    50   ~ 0
@@ -1379,7 +1368,6 @@ F 3 "" H 13600 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 13600 950 
-NoConn ~ 11850 3650
 NoConn ~ 11850 3550
 NoConn ~ 13600 1750
 Text Label 5450 4350 2    50   ~ 0
@@ -1446,4 +1434,19 @@ Wire Notes Line
 	15950 1050 14600 1050
 Wire Notes Line
 	14600 1050 14600 600 
+Text Label 11750 3650 2    50   ~ 0
+NRST
+$Comp
+L connectors:SOICbite_SWD U6
+U 1 1 5EFB31C8
+P 12000 3050
+F 0 "U6" H 12378 2746 50  0000 L CNN
+F 1 "SOICbite_SWD" H 12378 2655 50  0000 L CNN
+F 2 "connectors:SOICbiteSmall" H 12000 3050 50  0001 C CNN
+F 3 "https://github.com/SimonMerrett/SOICbite" H 12000 3050 50  0001 C CNN
+	1    12000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 3650 11850 3650
 $EndSCHEMATC
