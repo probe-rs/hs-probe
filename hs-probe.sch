@@ -1819,34 +1819,34 @@ $Comp
 L Connector:Conn_01x09_Female J2
 U 1 1 5F1433E5
 P 13700 4600
-F 0 "J2" H 13728 4626 50  0000 L CNN
-F 1 "Castellated Vias" H 13728 4535 50  0000 L CNN
+F 0 "J2" H 13592 3975 50  0000 C CNN
+F 1 "Castellated Vias" H 13592 4066 50  0000 C CNN
 F 2 "connectors:1x9_1.5mm_castellated" H 13700 4600 50  0001 C CNN
 F 3 "~" H 13700 4600 50  0001 C CNN
 	1    13700 4600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female J3
 U 1 1 5F14E17B
-P 13700 5150
-F 0 "J3" H 13728 5126 50  0000 L CNN
-F 1 "Castellated Vias" H 13728 5035 50  0000 L CNN
-F 2 "connectors:1x2_1.5mm_castellated" H 13700 5150 50  0001 C CNN
-F 3 "~" H 13700 5150 50  0001 C CNN
-	1    13700 5150
-	1    0    0    -1  
+P 13700 5250
+F 0 "J3" H 13592 4925 50  0000 C CNN
+F 1 "Castellated Vias" H 13592 5016 50  0000 C CNN
+F 2 "connectors:1x2_1.5mm_castellated" H 13700 5250 50  0001 C CNN
+F 3 "~" H 13700 5250 50  0001 C CNN
+	1    13700 5250
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J4
 U 1 1 5F14F2FD
-P 13700 5650
-F 0 "J4" H 13728 5626 50  0000 L CNN
-F 1 "Castellated Vias" H 13728 5535 50  0000 L CNN
-F 2 "connectors:1x4_1.5mm_castellated" H 13700 5650 50  0001 C CNN
-F 3 "~" H 13700 5650 50  0001 C CNN
-	1    13700 5650
-	1    0    0    -1  
+P 13700 5750
+F 0 "J4" H 13592 5325 50  0000 C CNN
+F 1 "Castellated Vias" H 13592 5416 50  0000 C CNN
+F 2 "connectors:1x4_1.5mm_castellated" H 13700 5750 50  0001 C CNN
+F 3 "~" H 13700 5750 50  0001 C CNN
+	1    13700 5750
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR036
