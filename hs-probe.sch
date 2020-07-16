@@ -1838,14 +1838,14 @@ F 3 "~" H 13700 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J4
+L Connector:Conn_01x04_Female J4
 U 1 1 5F14F2FD
-P 13700 5400
-F 0 "J4" H 13728 5376 50  0000 L CNN
-F 1 "Castellated Vias" H 13728 5285 50  0000 L CNN
-F 2 "connectors:1x2_1.5mm_castellated" H 13700 5400 50  0001 C CNN
-F 3 "~" H 13700 5400 50  0001 C CNN
-	1    13700 5400
+P 13700 5650
+F 0 "J4" H 13728 5626 50  0000 L CNN
+F 1 "Castellated Vias" H 13728 5535 50  0000 L CNN
+F 2 "connectors:1x4_1.5mm_castellated" H 13700 5650 50  0001 C CNN
+F 3 "~" H 13700 5650 50  0001 C CNN
+	1    13700 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1902,14 +1902,14 @@ Wire Wire Line
 	13500 4600 13400 4600
 Text Label 13400 4600 2    50   ~ 0
 T_TDI
-Text Label 13400 5400 2    50   ~ 0
+Text Label 13400 5550 2    50   ~ 0
 T_VCC
 Wire Wire Line
-	13400 5500 13500 5500
-Text Label 13400 5500 2    50   ~ 0
+	13400 5650 13500 5650
+Text Label 13400 5650 2    50   ~ 0
 T_VCC_PWR
 Wire Wire Line
-	13400 5400 13500 5400
+	13400 5550 13500 5550
 Wire Wire Line
 	13400 5150 13500 5150
 Wire Wire Line
@@ -1927,4 +1927,20 @@ F 3 "" H 13400 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13400 5000 13500 5000
+Text Label 13400 5750 2    50   ~ 0
+GPIO1
+Text Label 13400 5850 2    50   ~ 0
+GPIO2
+Wire Wire Line
+	13400 5750 13500 5750
+Wire Wire Line
+	13400 5850 13500 5850
+Text Label 7900 7800 0    50   ~ 0
+GPIO1
+Wire Wire Line
+	7900 7800 7800 7800
+Text Label 7900 8000 0    50   ~ 0
+GPIO2
+Wire Wire Line
+	7900 8000 7800 8000
 $EndSCHEMATC
