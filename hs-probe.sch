@@ -1815,4 +1815,116 @@ Text Label 13050 1000 2    50   ~ 0
 T_VCC_PWR
 Wire Wire Line
 	13050 1000 13150 1000
+$Comp
+L Connector:Conn_01x09_Female J2
+U 1 1 5F1433E5
+P 13700 4600
+F 0 "J2" H 13728 4626 50  0000 L CNN
+F 1 "Castellated Vias" H 13728 4535 50  0000 L CNN
+F 2 "connectors:1x9_1.5mm_castellated" H 13700 4600 50  0001 C CNN
+F 3 "~" H 13700 4600 50  0001 C CNN
+	1    13700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5F14E17B
+P 13700 5150
+F 0 "J3" H 13728 5126 50  0000 L CNN
+F 1 "Castellated Vias" H 13728 5035 50  0000 L CNN
+F 2 "connectors:1x2_1.5mm_castellated" H 13700 5150 50  0001 C CNN
+F 3 "~" H 13700 5150 50  0001 C CNN
+	1    13700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5F14F2FD
+P 13700 5400
+F 0 "J4" H 13728 5376 50  0000 L CNN
+F 1 "Castellated Vias" H 13728 5285 50  0000 L CNN
+F 2 "connectors:1x2_1.5mm_castellated" H 13700 5400 50  0001 C CNN
+F 3 "~" H 13700 5400 50  0001 C CNN
+	1    13700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR036
+U 1 1 5F15CE1C
+P 13400 5250
+F 0 "#PWR036" H 13400 5100 50  0001 C CNN
+F 1 "+5V" V 13415 5378 50  0000 L CNN
+F 2 "" H 13400 5250 50  0001 C CNN
+F 3 "" H 13400 5250 50  0001 C CNN
+	1    13400 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 4300 13400 4300
+Wire Wire Line
+	13500 4400 13400 4400
+Wire Wire Line
+	13500 4500 13400 4500
+Wire Wire Line
+	13500 4700 13400 4700
+Wire Wire Line
+	13400 4200 13500 4200
+Text Label 13400 4700 2    50   ~ 0
+T_~RESET
+Text Label 13400 4400 2    50   ~ 0
+T_SWO_TDO
+Text Label 13400 4300 2    50   ~ 0
+T_SWDCLK_JCLK
+Text Label 13400 4200 2    50   ~ 0
+T_SWDIO_TMS
+Text Label 13400 4500 2    50   ~ 0
+T_GNDDetect
+$Comp
+L power:GND #PWR037
+U 1 1 5F15CE32
+P 13400 5150
+F 0 "#PWR037" H 13400 4900 50  0001 C CNN
+F 1 "GND" H 13405 4977 50  0001 C CNN
+F 2 "" H 13400 5150 50  0001 C CNN
+F 3 "" H 13400 5150 50  0001 C CNN
+	1    13400 5150
+	0    1    1    0   
+$EndComp
+Text Label 13400 4900 2    50   ~ 0
+T_VCP_RX
+Text Label 13400 4800 2    50   ~ 0
+T_VCP_TX
+Wire Wire Line
+	13400 4800 13500 4800
+Wire Wire Line
+	13400 4900 13500 4900
+Wire Wire Line
+	13500 4600 13400 4600
+Text Label 13400 4600 2    50   ~ 0
+T_TDI
+Text Label 13400 5400 2    50   ~ 0
+T_VCC
+Wire Wire Line
+	13400 5500 13500 5500
+Text Label 13400 5500 2    50   ~ 0
+T_VCC_PWR
+Wire Wire Line
+	13400 5400 13500 5400
+Wire Wire Line
+	13400 5150 13500 5150
+Wire Wire Line
+	13400 5250 13500 5250
+$Comp
+L power:GND #PWR0103
+U 1 1 5F299365
+P 13400 5000
+F 0 "#PWR0103" H 13400 4750 50  0001 C CNN
+F 1 "GND" H 13405 4827 50  0001 C CNN
+F 2 "" H 13400 5000 50  0001 C CNN
+F 3 "" H 13400 5000 50  0001 C CNN
+	1    13400 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5000 13500 5000
 $EndSCHEMATC
