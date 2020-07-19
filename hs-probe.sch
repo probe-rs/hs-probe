@@ -2205,4 +2205,6 @@ $EndComp
 Wire Wire Line
 	9400 10550 9500 10550
 Connection ~ 9500 10550
+Text Notes 11900 9800 0    100  ~ 0
+LICENSE:\nThis work is licensed under CERN-OHL-P.
 $EndSCHEMATC

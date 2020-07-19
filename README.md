@@ -17,3 +17,7 @@ The schematic can be found in [the schematic PDF](schematic-v1.1.pdf).
 
 ![alt text](hs-probe-top.jpg "probe")
 ![alt text](hs-probe-bot.jpg "probe")
+
+## License
+
+This work is licensed under [CERN-OHL-P](cern_ohl_p_v2.txt).
