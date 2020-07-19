@@ -2207,4 +2207,6 @@ Wire Wire Line
 Connection ~ 9500 10550
 Text Notes 11900 9800 0    100  ~ 0
 LICENSE:\nThis work is licensed under CERN-OHL-P.
+Text Notes 5300 2800 0    50   ~ 0
+ESD protection + 100 ohm current limiting chip
 $EndSCHEMATC
