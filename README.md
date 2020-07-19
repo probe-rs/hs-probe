@@ -9,7 +9,7 @@ access the internal bootloader, and then when the firmware takes over it can swi
 * The output connector can either be:
     * The STDC14 connector used on STLink/V3 which is mounted by default.
     * Or the standard Cortex-M Debug (1.27mm, 10 pin) connector if one bends/removes the outer 2 pins on the connector.
-* The programming connector is the SOICBite.
+* The programming connector is the Tag Connect TC2030, however for just loading firmware the USB bootloader is recommended.
 * USB MUX between USB HS/FS.
 * Castellated vias for all programming pins, power and 2 GPIOs.
 

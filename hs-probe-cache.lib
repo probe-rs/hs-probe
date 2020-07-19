@@ -297,24 +297,6 @@ X VDD 4 100 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# connectors_SOICbite_SWD
-#
-DEF connectors_SOICbite_SWD U 0 40 Y Y 1 F N
-F0 "U" 150 50 50 H V C CNN
-F1 "connectors_SOICbite_SWD" 200 -750 50 H V C CNN
-F2 "connectors:SOICbiteSmall" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 0 0 350 -700 0 1 0 f
-X VCC 1 -150 -100 150 R 50 50 1 1 P
-X SWDIO 2 -150 -300 150 R 50 50 1 1 B
-X SWCLK 3 -150 -400 150 R 50 50 1 1 O
-X GND 4 -150 -200 150 R 50 50 1 1 W
-X SWO 6 -150 -500 150 R 50 50 1 1 I
-X NRST 7 -150 -600 150 R 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
 # connectors_STDC14
 #
 DEF connectors_STDC14 U 0 40 Y Y 1 F N
@@ -338,6 +320,33 @@ X T_JCLK/T_SWCLK 6 -100 -900 100 R 50 50 1 1 I
 X GND 7 -100 -500 100 R 50 50 1 1 W
 X T_JTDO/T_SWO 8 -100 -1000 100 R 50 50 1 1 O
 X T_JRCLK 9 -100 -1100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# connectors_tag-connect-swd
+#
+DEF connectors_tag-connect-swd J 0 100 Y Y 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "connectors_tag-connect-swd" 0 -400 50 H V C CNN
+F2 "connectors:tag-connect_6pin_nolegs_swd" 0 400 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X VCC 1 -200 200 150 R 50 50 1 1 P
+X SWDIO 2 -200 100 150 R 50 50 1 1 P
+X ~RESET 3 -200 0 150 R 50 50 1 1 P
+X SWCLK 4 -200 -100 150 R 50 50 1 1 P
+X GND 5 -200 -200 150 R 50 50 1 1 P
+X SWO 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
