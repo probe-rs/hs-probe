@@ -1378,15 +1378,15 @@ Wire Notes Line
 Wire Notes Line
 	10000 1050 10000 650 
 Text Notes 14200 1150 0    50   ~ 0
-DESIGN NOTE:\nT_VCC is not read, this assumes\nthat the target is running at the\nsame voltage as the probe.
+DESIGN NOTE:\nT_VCC is read before \nenabling 3.3V power.
 Wire Notes Line
-	14150 750  15500 750 
+	14150 850  15050 850 
 Wire Notes Line
-	15500 750  15500 1200
+	15050 850  15050 1200
 Wire Notes Line
-	15500 1200 14150 1200
+	15050 1200 14150 1200
 Wire Notes Line
-	14150 1200 14150 750 
+	14150 1200 14150 850 
 Text Label 14100 3650 2    50   ~ 0
 NRST
 $Comp
@@ -1416,10 +1416,10 @@ L ldo:MIC5259 U3
 U 1 1 5E8D0A87
 P 13000 7750
 F 0 "U3" H 13250 7915 50  0000 C CNN
-F 1 "MIC5259" H 13250 7824 50  0000 C CNN
-F 2 "dfn:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" H 13000 7750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5259.pdf" H 13000 7750 50  0001 C CNN
-F 4 "MIC5259-3.3YML-TR" H 13000 7750 50  0001 C CNN "MPN"
+F 1 "MIC5353" H 13250 7824 50  0000 C CNN
+F 2 "dfn:DFN-6-1EP_1.6x1.6mm_P0.5mm_EP0.5x1.26mm" H 13000 7750 50  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf" H 13000 7750 50  0001 C CNN
+F 4 "MIC5353-3.3YMT" H 13000 7750 50  0001 C CNN "MPN"
 	1    13000 7750
 	1    0    0    -1  
 $EndComp
@@ -1490,10 +1490,10 @@ L ldo:MIC5259 U7
 U 1 1 5E935388
 P 13000 8500
 F 0 "U7" H 13250 8665 50  0000 C CNN
-F 1 "MIC5259" H 13250 8574 50  0000 C CNN
-F 2 "dfn:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" H 13000 8500 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5259.pdf" H 13000 8500 50  0001 C CNN
-F 4 "MIC5259-3.3YML-TR" H 13000 8500 50  0001 C CNN "MPN"
+F 1 "MIC5353" H 13250 8574 50  0000 C CNN
+F 2 "dfn:DFN-6-1EP_1.6x1.6mm_P0.5mm_EP0.5x1.26mm" H 13000 8500 50  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf" H 13000 8500 50  0001 C CNN
+F 4 "MIC5353-3.3YMT" H 13000 8500 50  0001 C CNN "MPN"
 	1    13000 8500
 	1    0    0    -1  
 $EndComp
@@ -1533,7 +1533,7 @@ Wire Wire Line
 Text Label 12400 9150 2    50   ~ 0
 T_VCC_EN
 Text Label 14050 8600 0    50   ~ 0
-T_VCC_PWR
+T_VCC
 Text Label 13050 1100 2    50   ~ 0
 T_VCC
 Wire Wire Line
@@ -1812,7 +1812,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 8700 7800 8700
 Text Label 13050 1000 2    50   ~ 0
-T_VCC_PWR
+T_VCC
 Wire Wire Line
 	13050 1000 13150 1000
 $Comp
@@ -1838,12 +1838,12 @@ F 3 "~" H 13700 5450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J4
+L Connector:Conn_01x03_Female J4
 U 1 1 5F14F2FD
 P 13700 6000
-F 0 "J4" H 13592 5575 50  0000 C CNN
-F 1 "Castellated Vias" H 13592 5666 50  0000 C CNN
-F 2 "connectors:1x4_1.5mm_castellated" H 13700 6000 50  0001 C CNN
+F 0 "J4" H 13592 5675 50  0000 C CNN
+F 1 "Castellated Vias" H 13592 5766 50  0000 C CNN
+F 2 "connectors:1x3_1.5mm_castellated" H 13700 6000 50  0001 C CNN
 F 3 "~" H 13700 6000 50  0001 C CNN
 	1    13700 6000
 	1    0    0    1   
@@ -1902,14 +1902,10 @@ Wire Wire Line
 	13500 4600 13400 4600
 Text Label 13400 4600 2    50   ~ 0
 T_TDI
-Text Label 13400 5800 2    50   ~ 0
-T_VCC
 Wire Wire Line
 	13400 5900 13500 5900
 Text Label 13400 5900 2    50   ~ 0
-T_VCC_PWR
-Wire Wire Line
-	13400 5800 13500 5800
+T_VCC
 Wire Wire Line
 	13400 5350 13500 5350
 Wire Wire Line
@@ -1943,4 +1939,52 @@ Text Label 7900 8000 0    50   ~ 0
 GPIO2
 Wire Wire Line
 	7900 8000 7800 8000
+Text Label 7900 2800 0    50   ~ 0
+FS_VBUS
+Wire Wire Line
+	7900 2800 7800 2800
+Text Label 7900 4900 0    50   ~ 0
+HS_VBUS
+Wire Wire Line
+	7900 4900 7800 4900
+$Comp
+L Device:R_Small R9
+U 1 1 5F1A949A
+P 9600 2850
+F 0 "R9" V 9404 2850 50  0000 C CNN
+F 1 "1k" V 9495 2850 50  0000 C CNN
+F 2 "passive:R_0402" H 9600 2850 50  0001 C CNN
+F 3 "~" H 9600 2850 50  0001 C CNN
+F 4 "1%" H 9600 2850 50  0001 C CNN "Tolerance"
+	1    9600 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR038
+U 1 1 5F1A9A32
+P 9850 2850
+F 0 "#PWR038" H 9850 2700 50  0001 C CNN
+F 1 "+5V" H 9865 3023 50  0000 C CNN
+F 2 "" H 9850 2850 50  0001 C CNN
+F 3 "" H 9850 2850 50  0001 C CNN
+	1    9850 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 2850 9700 2850
+Wire Wire Line
+	9500 2850 9400 2850
+Wire Wire Line
+	9400 2850 9400 2750
+Wire Wire Line
+	9400 2750 9300 2750
+Wire Wire Line
+	9400 2950 9300 2950
+Wire Wire Line
+	9400 2850 9400 2950
+Connection ~ 9400 2850
+Text Label 9300 2750 2    50   ~ 0
+FS_VBUS
+Text Label 9300 2950 2    50   ~ 0
+HS_VBUS
 $EndSCHEMATC
