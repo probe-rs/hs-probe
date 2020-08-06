@@ -641,7 +641,7 @@ Wire Notes Line
 Wire Notes Line
 	6350 11100 6350 8500
 Text Notes 6550 10900 0    50   ~ 0
-DESIGN NOTE:\nOn startup the FS port is connected for access to the \nSTM32 USB bootloader. The firmware can then  switch \nover to the HS port.
+DESIGN NOTE:\nOn startup the FS port is connected for access to the \nSTM32 USB bootloader. The firmware can then switch \nover to the HS port.
 Wire Notes Line
 	6500 10550 8750 10550
 Wire Notes Line
@@ -1813,9 +1813,9 @@ U 1 1 5E866432
 P 3600 4150
 F 0 "U2" H 3550 4400 50  0000 R CNN
 F 1 "12 MHz" H 3550 3900 50  0000 R CNN
-F 2 "crystals:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm" H 3600 4150 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultra-Small-Ultra-Low-Power-MEMS-Oscillator-DS20005625C.pdf" H 3900 4600 50  0001 C CNN
-F 4 "DSC6003HI2A-012.0000T" H 3600 4150 50  0001 C CNN "MPN"
+F 2 "crystals:Crystal_4Pin_2.0x1.6mm" H 3600 4150 50  0001 C CNN
+F 3 "https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf" H 3900 4600 50  0001 C CNN
+F 4 "KC2016Z12.0000C15XXK" H 3600 4150 50  0001 C CNN "MPN"
 	1    3600 4150
 	-1   0    0    -1  
 $EndComp
