@@ -1,4 +1,4 @@
-update=Sun 19 Jul 2020 12:22:37 PM CEST
+update=Wed 07 Oct 2020 08:57:09 AM CEST
 version=1
 last_client=kicad
 [general]
@@ -238,6 +238,17 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1
+TrackWidth=0.1
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2286
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Diff paris
+Clearance=0.3
 TrackWidth=0.1
 ViaDiameter=0.45
 ViaDrill=0.2

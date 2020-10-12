@@ -34,4 +34,5 @@
   (lib (name xilinx7)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/symbols/xilinx7.lib)(options "")(descr ""))
   (lib (name xilinxultra)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/symbols/xilinxultra.lib)(options "")(descr ""))
   (lib (name hs-probe-stm32)(type Legacy)(uri ${KIPRJMOD}/hs-probe-stm32.lib)(options "")(descr ""))
+  (lib (name hs-probe-ulpi)(type Legacy)(uri ${KIPRJMOD}/hs-probe-ulpi.lib)(options "")(descr ""))
 )
