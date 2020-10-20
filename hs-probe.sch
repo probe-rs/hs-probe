@@ -2220,12 +2220,40 @@ Wire Wire Line
 Connection ~ 7400 6950
 Wire Wire Line
 	7400 6950 7100 6950
-Text Label 7450 7900 2    50   ~ 0
+Text Label 7300 7900 2    50   ~ 0
 T_ENABLE
 Wire Wire Line
-	7450 7900 7550 7900
+	7300 7900 7450 7900
 Text Label 2250 7400 0    50   ~ 0
 T_ENABLE
 Wire Wire Line
 	2150 7400 2250 7400
+$Comp
+L Device:R_Small R?
+U 1 1 5FCC6AAD
+P 7450 8050
+F 0 "R?" H 7509 8096 50  0000 L CNN
+F 1 "5.1k" H 7509 8005 50  0000 L CNN
+F 2 "passive:R_0402" H 7450 8050 50  0001 C CNN
+F 3 "~" H 7450 8050 50  0001 C CNN
+F 4 "1%" H 7450 8050 50  0001 C CNN "Tolerance"
+	1    7450 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCC6AB3
+P 7450 8150
+F 0 "#PWR?" H 7450 7900 50  0001 C CNN
+F 1 "GND" H 7455 7977 50  0001 C CNN
+F 2 "" H 7450 8150 50  0001 C CNN
+F 3 "" H 7450 8150 50  0001 C CNN
+	1    7450 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 7950 7450 7900
+Connection ~ 7450 7900
+Wire Wire Line
+	7450 7900 7550 7900
 $EndSCHEMATC
