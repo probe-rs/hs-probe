@@ -19,8 +19,9 @@ access the internal bootloader, and then when the firmware takes over it can swi
 * USB MUX between USB HS/FS.
 * Castellated vias for all programming pins, power and 2 GPIOs.
 * USB-C connector.
+* Target 5V and 3.3V is protected with an ideal diode circuit to not have current flow from the target to the host.
 
-The schematic can be found in [the schematic PDF](schematic-v1.1.pdf).
+The schematic can be found in [the schematic PDF](schematic-v1.2.pdf).
 
 ![alt text](hs-probe-top.jpg "probe")
 ![alt text](hs-probe-bot.jpg "probe")
