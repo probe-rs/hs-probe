@@ -665,11 +665,11 @@ Wire Notes Line
 Text Notes 800  5050 0    100  ~ 0
 MCU I/O
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 9 1 5F18CA2E
 P 5550 5500
 F 0 "U1" H 6042 5787 60  0000 C CNN
-F 1 "base-stm32" H 6042 5681 60  0000 C CNN
+F 1 "hs-probe-stm32" H 6042 5681 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 5750 5550 60  0001 L CNN
 F 3 "" H 5750 5350 60  0001 L CNN
 F 4 "STM32F723IEK6" H 5550 5500 50  0001 C CNN "MPN"
@@ -677,11 +677,11 @@ F 4 "STM32F723IEK6" H 5550 5500 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 7 1 5F17D932
 P 3900 9500
 F 0 "U1" H 4342 9787 60  0000 C CNN
-F 1 "base-stm32" H 4342 9681 60  0000 C CNN
+F 1 "hs-probe-stm32" H 4342 9681 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 4100 9550 60  0001 L CNN
 F 3 "" H 4100 9350 60  0001 L CNN
 F 4 "STM32F723IEK6" H 3900 9500 50  0001 C CNN "MPN"
@@ -689,11 +689,11 @@ F 4 "STM32F723IEK6" H 3900 9500 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 5 1 5F175F3E
 P 3900 7500
 F 0 "U1" H 4342 7787 60  0000 C CNN
-F 1 "base-stm32" H 4342 7681 60  0000 C CNN
+F 1 "hs-probe-stm32" H 4342 7681 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 4100 7550 60  0001 L CNN
 F 3 "" H 4100 7350 60  0001 L CNN
 F 4 "STM32F723IEK6" H 3900 7500 50  0001 C CNN "MPN"
@@ -701,11 +701,11 @@ F 4 "STM32F723IEK6" H 3900 7500 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 4 1 5F17144F
 P 3900 5500
 F 0 "U1" H 4392 5787 60  0000 C CNN
-F 1 "base-stm32" H 4392 5681 60  0000 C CNN
+F 1 "hs-probe-stm32" H 4392 5681 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 4100 5550 60  0001 L CNN
 F 3 "" H 4100 5350 60  0001 L CNN
 F 4 "STM32F723IEK6" H 3900 5500 50  0001 C CNN "MPN"
@@ -713,11 +713,11 @@ F 4 "STM32F723IEK6" H 3900 5500 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 3 1 5F16E354
 P 2150 9300
 F 0 "U1" H 2642 9587 60  0000 C CNN
-F 1 "base-stm32" H 2642 9481 60  0000 C CNN
+F 1 "hs-probe-stm32" H 2642 9481 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 2350 9350 60  0001 L CNN
 F 3 "" H 2350 9150 60  0001 L CNN
 F 4 "STM32F723IEK6" H 2150 9300 50  0001 C CNN "MPN"
@@ -725,11 +725,11 @@ F 4 "STM32F723IEK6" H 2150 9300 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 2 1 5F165849
 P 2150 7300
 F 0 "U1" H 2792 7587 60  0000 C CNN
-F 1 "base-stm32" H 2792 7481 60  0000 C CNN
+F 1 "hs-probe-stm32" H 2792 7481 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 2350 7350 60  0001 L CNN
 F 3 "" H 2350 7150 60  0001 L CNN
 F 4 "STM32F723IEK6" H 2150 7300 50  0001 C CNN "MPN"
@@ -737,11 +737,11 @@ F 4 "STM32F723IEK6" H 2150 7300 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 1 1 5F160B70
 P 2150 5500
 F 0 "U1" H 2792 5787 60  0000 C CNN
-F 1 "base-stm32" H 2792 5681 60  0000 C CNN
+F 1 "hs-probe-stm32" H 2792 5681 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 2350 5550 60  0001 L CNN
 F 3 "" H 2350 5350 60  0001 L CNN
 F 4 "STM32F723IEK6" H 2150 5500 50  0001 C CNN "MPN"
@@ -1134,11 +1134,11 @@ F 3 "" H 1550 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 12 1 5F19B372
 P 1550 2000
 F 0 "U1" H 1892 2287 60  0000 C CNN
-F 1 "base-stm32" H 1892 2181 60  0000 C CNN
+F 1 "hs-probe-stm32" H 1892 2181 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 1750 2050 60  0001 L CNN
 F 3 "" H 1750 1850 60  0001 L CNN
 F 4 "STM32F723IEK6" H 1550 2000 50  0001 C CNN "MPN"
@@ -1146,11 +1146,11 @@ F 4 "STM32F723IEK6" H 1550 2000 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 11 1 5F19563C
 P 4100 2000
 F 0 "U1" H 4517 2287 60  0000 C CNN
-F 1 "base-stm32" H 4517 2181 60  0000 C CNN
+F 1 "hs-probe-stm32" H 4517 2181 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 4300 2050 60  0001 L CNN
 F 3 "" H 4300 1850 60  0001 L CNN
 F 4 "STM32F723IEK6" H 4100 2000 50  0001 C CNN "MPN"
@@ -1158,11 +1158,11 @@ F 4 "STM32F723IEK6" H 4100 2000 50  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L base-stm32:base-stm32 U1
+L hs-probe-stm32:hs-probe-stm32 U1
 U 10 1 5F190F67
 P 2350 3650
 F 0 "U1" H 3092 3937 60  0000 C CNN
-F 1 "base-stm32" H 3092 3831 60  0000 C CNN
+F 1 "hs-probe-stm32" H 3092 3831 60  0000 C CNN
 F 2 "bga:UFBGA-201_10x10mm_Layout15x15_P0.65mm" H 2550 3700 60  0001 L CNN
 F 3 "" H 2550 3500 60  0001 L CNN
 F 4 "STM32F723IEK6" H 2350 3650 50  0001 C CNN "MPN"
@@ -2034,7 +2034,7 @@ SPI1_CLK
 Text Label 5600 1900 2    50   ~ 0
 SPI1_MOSI
 Text Notes 11900 10500 0    100  ~ 0
-Designed by: Emil Fresk\nTwitter / Github: @korken89\nLink: https://github.com/probe-rs/base
+Designed by: Emil Fresk\nTwitter / Github: @korken89\nLink: https://github.com/probe-rs/hs-probe
 NoConn ~ 2150 5500
 NoConn ~ 2150 5600
 NoConn ~ 2150 5700

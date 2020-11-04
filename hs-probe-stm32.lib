@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# base-stm32
+# hs-probe-stm32
 #
-DEF base-stm32 U 0 40 Y Y 12 L N
+DEF hs-probe-stm32 U 0 40 Y Y 12 L N
 F0 "U" 200 250 60 H V L CNN
-F1 "base-stm32" 200 150 60 H V L CNN
+F1 "hs-probe-stm32" 200 150 60 H V L CNN
 F2 "" 200 50 60 H I L CNN
 F3 "" 200 -150 60 H I L CNN
 DRAW
