@@ -2045,7 +2045,6 @@ NoConn ~ 2150 6200
 NoConn ~ 2150 6300
 NoConn ~ 2150 6500
 NoConn ~ 2150 6800
-NoConn ~ 2150 7300
 NoConn ~ 2150 7500
 NoConn ~ 2150 8200
 NoConn ~ 2150 8400
@@ -2256,4 +2255,28 @@ Wire Wire Line
 Connection ~ 7450 7900
 Wire Wire Line
 	7450 7900 7550 7900
+$Comp
+L Device:R_Small R103
+U 1 1 5FB7207F
+P 5350 7050
+F 0 "R103" V 5250 7050 50  0000 C CNN
+F 1 "5.1k" V 5450 7050 50  0000 C CNN
+F 2 "passive:R_0402" H 5350 7050 50  0001 C CNN
+F 3 "~" H 5350 7050 50  0001 C CNN
+F 4 "1%" H 5350 7050 50  0001 C CNN "Tolerance"
+	1    5350 7050
+	0    1    1    0   
+$EndComp
+Text Label 5500 7050 0    50   ~ 0
+PROTECTED_5V
+Wire Wire Line
+	5500 7050 5450 7050
+Wire Wire Line
+	5250 7050 5200 7050
+Text Label 5200 7050 2    50   ~ 0
+PROT_5V_SENSE
+Text Label 2250 7300 0    50   ~ 0
+PROT_5V_SENSE
+Wire Wire Line
+	2150 7300 2250 7300
 $EndSCHEMATC
