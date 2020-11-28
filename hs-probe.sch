@@ -137,19 +137,6 @@ F 3 "" H 6850 6950 50  0001 C CNN
 	1    6850 6950
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB1
-U 1 1 5EA8C637
-P 7000 6950
-F 0 "FB1" V 6855 6950 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 6854 6950 50  0001 C CNN
-F 2 "passive:R_0402" V 6930 6950 50  0001 C CNN
-F 3 "~" H 7000 6950 50  0001 C CNN
-F 4 "MMZ1005S601HT000" H 7000 6950 50  0001 C CNN "MPN"
-F 5 "600 Ohm @ 100 MHz" H 7000 6950 50  0001 C CNN "Tolerance"
-	1    7000 6950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6900 6950 6850 6950
 Wire Wire Line
@@ -2306,10 +2293,10 @@ Text Label 8700 1600 2    50   ~ 0
 Wire Wire Line
 	8700 1600 8800 1600
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0104
 U 1 1 5FF2DABB
 P 8500 7700
-F 0 "#FLG?" H 8500 7775 50  0001 C CNN
+F 0 "#FLG0104" H 8500 7775 50  0001 C CNN
 F 1 "PWR_FLAG" H 8500 7873 50  0000 C CNN
 F 2 "" H 8500 7700 50  0001 C CNN
 F 3 "~" H 8500 7700 50  0001 C CNN
@@ -2319,4 +2306,18 @@ $EndComp
 Connection ~ 8500 7700
 Wire Wire Line
 	8500 7700 8650 7700
+$Comp
+L Device:Fuse_Small F101
+U 1 1 5FC42F3E
+P 7000 6950
+F 0 "F101" H 7000 7043 50  0000 C CNN
+F 1 "Fuse_Small" H 7000 7044 50  0001 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 7000 6950 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mffsmf.pdf" H 7000 6950 50  0001 C CNN
+F 4 " MF-FSMF050X-2" H 7000 6950 50  0001 C CNN "MFPN"
+	1    7000 6950
+	1    0    0    -1  
+$EndComp
+Text Notes 6650 7100 0    50   ~ 0
+0.5A hold, 1A trip
 $EndSCHEMATC
