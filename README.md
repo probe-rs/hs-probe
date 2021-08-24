@@ -27,6 +27,13 @@ The schematic can be found in [the schematic PDF](schematic-v1.3.pdf).
 ![alt text](hs-probe-top.jpg "probe")
 ![alt text](hs-probe-bot.jpg "probe")
 
+## Cable Assembly
+
+The hs-probe package sold on our [shop](https://shop.probe.rs) contains two 16 wire ribbon cables, three 14p connectors and one 10p connector.
+You can make one cable with a 14p connector on each side and one cable with a 14p connector on one and a 10p connector on the other side. How to align the connectors is explained in the image below:
+
+![alt text](docs/cable-asssembly-instructions.png "cable assembly")
+
 ## License
 
 This work is licensed under [CERN-OHL-P](cern_ohl_p_v2.txt).
