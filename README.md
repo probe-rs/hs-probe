@@ -16,13 +16,13 @@ access the internal bootloader, and then when the firmware takes over it can swi
     * The STDC14 connector used on STLink/V3 which is mounted by default.
     * Or the standard Cortex-M Debug (1.27mm, 10 pin) connector if one bends/removes the outer 2 pins on the connector.
 * The programming connector is the Tag Connect TC2030, however for just loading firmware the USB bootloader is recommended.
-* USB MUX between USB HS/FS.
+* USB is muxed between USB HS/FS.
 * Castellated vias for all programming pins, power and 2 GPIOs.
 * USB-C connector.
 * Target 5V and 3.3V is protected with an ideal diode circuit to not have current flow from the target to the host.
 * For compatibility (mainly with Tag-Connect TC2050), pin 7 on the STDC 14 can be connected to the protected 5V.
 
-The schematic can be found in [the schematic PDF](schematic-v1.3.pdf).
+The schematic can be found in [the schematic PDF](schematic-v1.4.pdf).
 
 ![alt text](hs-probe-top.jpg "probe")
 ![alt text](hs-probe-bot.jpg "probe")
